@@ -10,7 +10,7 @@ package algorithms;
 public interface CodeFightIntro {
 
     /**
-     * This function is from
+     * This function is from https://codefights.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa
      * @param param1
      * @param param2
      * @return
