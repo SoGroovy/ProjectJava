@@ -1,3 +1,5 @@
+import myclass.Person;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -14,6 +16,10 @@ public class ProjectOneApplication {
         System.out.println("Hello");
         List<String> nameList = new LinkedList<>();
         nameList.forEach(System.out::println);
+
+
+        Person person = new Person();
+        person.sing();
 
     }
 
