@@ -1,10 +1,8 @@
-package algorithms;
+package java.algorithms;
 
 import org.junit.Test;
 
-import static algorithms.CodeFightIntro.add;
-import static algorithms.CodeFightIntro.centuryFromYear;
-import static algorithms.CodeFightIntro.istPalindrom;
+import static algorithms.CodeFightIntro.*;
 import static org.junit.Assert.*;
 
 /**
@@ -50,7 +48,7 @@ public class CodeFightIntroTest {
     @Test
     public void testCheckPalindrome(){
         String input = "aabaa";
-        String palin = istPalindrom(input);
+        boolean palin = isPalindrome(input);
         assertEquals(true, palin);
     }
 }
