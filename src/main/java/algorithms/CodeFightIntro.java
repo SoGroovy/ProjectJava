@@ -41,7 +41,7 @@ public interface CodeFightIntro {
    * This function is from https://codefights.com/arcade/intro/level-2/xzKiBHjhoinnpdh6m
    */
 
-  int adjacentElementsProduct(int[] inputArray) {
+  static int adjacentElementsProduct(int[] inputArray) {
     int largestProduct = Integer.MIN_VALUE;
     for (int i = 0; i < inputArray.length - 1; i++) {
       if ((inputArray[i] * inputArray[i + 1]) > largestProduct) {
@@ -54,7 +54,7 @@ public interface CodeFightIntro {
   /**
    * This method is from https://codefights.com/arcade/intro/level-2/yuGuHvcCaFCKk56rJ
    */
-  int shapeArea(int n) {
+  static int shapeArea(int n) {
     int area = 1;
     for (int i = 0; i < n; i++) {
       area = area + (i * 4);
