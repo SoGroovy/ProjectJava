@@ -5,7 +5,7 @@ package com.zeroexception.algo;
  */
 
 
-public interface CodeFightIntro {
+public interface LevelOne {
 
   /**
    * This function is from https://codefights.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa

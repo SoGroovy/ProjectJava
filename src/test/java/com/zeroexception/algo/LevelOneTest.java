@@ -1,8 +1,8 @@
 package com.zeroexception.algo;
 
-import static com.zeroexception.algo.CodeFightIntro.add;
-import static com.zeroexception.algo.CodeFightIntro.centuryFromYear;
-import static com.zeroexception.algo.CodeFightIntro.isPalindrome;
+import static com.zeroexception.algo.LevelOne.add;
+import static com.zeroexception.algo.LevelOne.centuryFromYear;
+import static com.zeroexception.algo.LevelOne.isPalindrome;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -10,7 +10,7 @@ import org.junit.Test;
 /**
  * @author Viet Quoc Tran vt on 2018-12-26. www.zeroexception.com
  */
-public class CodeFightIntroTest {
+public class LevelOneTest {
 
   @Test
   public void testAdd() {
