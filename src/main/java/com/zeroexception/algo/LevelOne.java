@@ -1,5 +1,7 @@
 package com.zeroexception.algo;
 
+import org.junit.Test.None;
+
 /**
  * @author Viet Quoc Tran on 4/30/18. www.zeroexception.com
  */
@@ -64,5 +66,28 @@ public interface LevelOne {
     return s.substring(start, end);
   }
 
+  static char getMaxLetter(String str){
 
+    return'x';
+  }
+
+  static int getMaxvalue(int[] arr) {
+    int maxValue = arr[0];
+    for (int i = 1; i < arr.length; i++){
+        if(maxValue < arr[i]){
+          maxValue = arr[i];
+        }
+    }
+    return maxValue;
+  }
+
+  static int getMinvalue(int[] arr){
+
+    return 0;
+  }
+
+  static int getDownHillIndex(int[] arr){
+
+    return 0;
+  }
 }

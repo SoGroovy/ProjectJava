@@ -1,7 +1,11 @@
 package com.zeroexception.algo;
 
 import static com.zeroexception.algo.LevelOne.add;
+import static com.zeroexception.algo.LevelOne.getDownHillIndex;
+import static com.zeroexception.algo.LevelOne.getMaxLetter;
 import static com.zeroexception.algo.LevelOne.centuryFromYear;
+import static com.zeroexception.algo.LevelOne.getMaxvalue;
+import static com.zeroexception.algo.LevelOne.getMinvalue;
 import static com.zeroexception.algo.LevelOne.getSubstr;
 import static com.zeroexception.algo.LevelOne.isPalindrome;
 import static org.junit.Assert.*;
@@ -71,6 +75,28 @@ public class LevelOneTest {
 
   @Test
   public void test_getMax1() {
-    assertEquals('z', getMaxLetter("zebra"));
+    assertEquals('w', getMaxLetter("hello world"));
   }
+
+  @Test
+  public void test_getMaxValue()  {
+    int[] arr = {0, 3, 4, 2, 9};
+
+    assertEquals(9, getMaxvalue(arr));
+  }
+
+  @Test
+  public void test_geMinValue()  {
+    int[] arr = {0, 3, 4, 2, 9};
+
+    assertEquals(0, getMinvalue(arr));
+  }
+
+  @Test
+  public void test_getDownHillIndex()  {
+    int[] arr = {0, 3, 4, 2, 9};
+
+    assertEquals(3, getDownHillIndex(arr));
+  }
+
 }
