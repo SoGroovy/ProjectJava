@@ -1,6 +1,4 @@
-package algorithms;
-
-import java.util.Scanner;
+package com.zeroexception.algo;
 
 /**
  * @author Viet Quoc Tran on 4/30/18. www.zeroexception.com
