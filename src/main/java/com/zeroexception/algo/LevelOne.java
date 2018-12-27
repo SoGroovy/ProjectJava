@@ -82,8 +82,13 @@ public interface LevelOne {
   }
 
   static int getMinvalue(int[] arr){
-
-    return 0;
+    int minValue = arr[0];
+    for (int i = 1; i < arr.length; i++){
+      if(minValue > arr[i]){
+        minValue = arr[i];
+      }
+    }
+    return minValue;
   }
 
   static int getDownHillIndex(int[] arr){
