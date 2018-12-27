@@ -59,5 +59,10 @@ public interface LevelOne {
     }
     return area;
   }
+  static String getSubstr(String s, int start, int end) {
+
+    return s.substring(start, end);
+  }
+
 
 }

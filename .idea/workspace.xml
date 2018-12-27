@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59647081-e468-453e-82c0-5d536361b535" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeroexception/algo/LevelOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zeroexception/algo/LevelOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zeroexception/algo/LevelOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zeroexception/algo/LevelOneTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,66 +14,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-402308775">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="480" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="480" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ProjectOneApplication.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
-                  <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroexception/algo/CodeFightIntro.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroexception/algo/CodeFightIntroTest.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroexception/algo/LevelOne.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/myclass/Person.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ProjectOneApplication.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="184">
+                  <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -78,15 +63,19 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroexception/algo/CodeFightIntro.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroexception/algo/LevelOneTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="371">
-                  <caret line="63" selection-start-line="63" selection-end-line="63" />
+                <state relative-caret-position="259">
+                  <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
                   <folding>
-                    <element signature="e#295#296#0" expanded="true" />
-                    <element signature="e#327#328#0" expanded="true" />
+                    <element signature="e#1273#1274#0" expanded="true" />
+                    <element signature="e#1297#1298#0" expanded="true" />
+                    <element signature="e#1424#1425#0" expanded="true" />
+                    <element signature="e#1484#1485#0" expanded="true" />
+                    <element signature="e#1525#1526#0" expanded="true" />
+                    <element signature="e#1548#1549#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -117,8 +106,16 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithms/CodeFightIntro.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/zeroexception/algo/CodeFightIntroTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zeroexception/algo/LevelOne.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zeroexception/algo/LevelOneTest.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -128,10 +125,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="279" />
-    <option name="y" value="50" />
-    <option name="width" value="2087" />
-    <option name="height" value="975" />
+    <option name="x" value="21" />
+    <option name="y" value="23" />
+    <option name="width" value="1260" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,36 +136,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="project-one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectone" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project-one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectone" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project-one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectone" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project-one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectone" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project-one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectone" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -176,7 +172,7 @@
             </path>
             <path>
               <item name="project-one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectone" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -184,20 +180,20 @@
             </path>
             <path>
               <item name="project-one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectone" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project-one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectone" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project-one" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectone" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -207,12 +203,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545879672391" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545888493098" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -242,17 +239,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CodeFightIntroTest.testAdd">
-    <configuration default="true" type="Applet">
+  <component name="RunManager" selected="JUnit.LevelOneTest.test_getSubstr4">
+    <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjectOneApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProjectOneApplication" />
-      <module name="project-one" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -263,7 +252,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeFightIntroTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LevelOneTest.testCenturyFromYear1988" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-one" />
       <extension name="coverage">
         <pattern>
@@ -271,9 +260,77 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.CodeFightIntroTest" />
-      <option name="METHOD_NAME" value="testAdd" />
+      <option name="PACKAGE_NAME" value="com.zeroexception.algo" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroexception.algo.LevelOneTest" />
+      <option name="METHOD_NAME" value="testCenturyFromYear1988" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelOneTest.test_getSubstr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroexception.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroexception.algo" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroexception.algo.LevelOneTest" />
+      <option name="METHOD_NAME" value="test_getSubstr" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelOneTest.test_getSubstr2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroexception.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroexception.algo" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroexception.algo.LevelOneTest" />
+      <option name="METHOD_NAME" value="test_getSubstr2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelOneTest.test_getSubstr3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroexception.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroexception.algo" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroexception.algo.LevelOneTest" />
+      <option name="METHOD_NAME" value="test_getSubstr3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelOneTest.test_getSubstr4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroexception.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroexception.algo" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroexception.algo.LevelOneTest" />
+      <option name="METHOD_NAME" value="test_getSubstr4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -286,7 +343,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -294,23 +351,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProjectOneApplication" />
-      <item itemvalue="JUnit.CodeFightIntroTest.testAdd" />
+      <item itemvalue="JUnit.LevelOneTest.testCenturyFromYear1988" />
+      <item itemvalue="JUnit.LevelOneTest.test_getSubstr" />
+      <item itemvalue="JUnit.LevelOneTest.test_getSubstr2" />
+      <item itemvalue="JUnit.LevelOneTest.test_getSubstr3" />
+      <item itemvalue="JUnit.LevelOneTest.test_getSubstr4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CodeFightIntroTest.testAdd" />
-        <item itemvalue="Application.ProjectOneApplication" />
+        <item itemvalue="JUnit.LevelOneTest.test_getSubstr4" />
+        <item itemvalue="JUnit.LevelOneTest.test_getSubstr3" />
+        <item itemvalue="JUnit.LevelOneTest.test_getSubstr2" />
+        <item itemvalue="JUnit.LevelOneTest.test_getSubstr" />
+        <item itemvalue="JUnit.LevelOneTest.testCenturyFromYear1988" />
       </list>
     </recent_temporary>
   </component>
@@ -340,15 +403,33 @@
     <history-entry file="CodeFightIntroTest_testAdd - 2018.04.30 at 21h 22m 52s.xml">
       <configuration name="CodeFightIntroTest.testAdd" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LevelOneTest_testCenturyFromYear1988 - 2018.12.26 at 21h 09m 33s.xml">
+      <configuration name="LevelOneTest.testCenturyFromYear1988" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LevelOneTest_test_getSubstr - 2018.12.26 at 21h 19m 55s.xml">
+      <configuration name="LevelOneTest.test_getSubstr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LevelOneTest_test_getSubstr - 2018.12.26 at 21h 20m 05s.xml">
+      <configuration name="LevelOneTest.test_getSubstr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LevelOneTest_test_getSubstr - 2018.12.26 at 21h 21m 59s.xml">
+      <configuration name="LevelOneTest.test_getSubstr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LevelOneTest_test_getSubstr - 2018.12.26 at 21h 22m 25s.xml">
+      <configuration name="LevelOneTest.test_getSubstr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LevelOneTest_test_getSubstr2 - 2018.12.26 at 23h 23m 15s.xml">
+      <configuration name="LevelOneTest.test_getSubstr2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7681000" />
+    <option name="totallyTimeSpent" value="11694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="279" y="50" width="2087" height="975" extended-state="0" />
+    <frame x="21" y="23" width="1260" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21173593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20771757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -357,18 +438,18 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295063" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32847896" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.40930232" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.407767" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32847896" />
       <window_info anchor="bottom" id="Reviews" order="14" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -398,11 +479,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ProjectOneApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -420,29 +498,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroexception/algo/CodeFightIntro.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroexception/algo/CodeFightIntro.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/CodeFightIntroTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroexception/algo/CodeFightIntroTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zeroexception/algo/LevelOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="184">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/CodeFightIntroTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroexception/algo/LevelOneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="259">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zeroexception/algo/CodeFightIntroTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
           </folding>
         </state>
       </provider>

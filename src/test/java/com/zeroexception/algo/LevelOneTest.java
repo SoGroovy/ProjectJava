@@ -2,6 +2,7 @@ package com.zeroexception.algo;
 
 import static com.zeroexception.algo.LevelOne.add;
 import static com.zeroexception.algo.LevelOne.centuryFromYear;
+import static com.zeroexception.algo.LevelOne.getSubstr;
 import static com.zeroexception.algo.LevelOne.isPalindrome;
 import static org.junit.Assert.*;
 
@@ -48,5 +49,28 @@ public class LevelOneTest {
     String input = "aabaa";
     boolean palin = isPalindrome(input);
     assertEquals(true, palin);
+  }
+
+  @Test
+  public void test_getSubstr() {
+    assertEquals("e", getSubstr("hello", 1, 2));
+  }
+
+  @Test
+  public void test_getSubstr2() {
+    assertEquals("joh", getSubstr("hello john", 6, 9));
+  }
+  @Test
+  public void test_getSubstr3(){
+    assertEquals("b", getSubstr("abc", 1,2));
+  }
+  @Test
+  public void test_getSubstr4(){
+    assertEquals("o W", getSubstr("Hello World", 4, 7));
+  }
+
+  @Test
+  public void test_getMax1() {
+    assertEquals('z', getMaxLetter("zebra"));
   }
 }
