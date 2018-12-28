@@ -1,7 +1,7 @@
 package com.zeroexception.algo;
 
 import static com.zeroexception.algo.LevelOne.add;
-import static com.zeroexception.algo.LevelOne.getDownHillIndex;
+import static com.zeroexception.algo.LevelOne.getFirstDownHillIndex;
 import static com.zeroexception.algo.LevelOne.getMaxLetter;
 import static com.zeroexception.algo.LevelOne.centuryFromYear;
 import static com.zeroexception.algo.LevelOne.getMaxvalue;
@@ -104,16 +104,16 @@ public class LevelOneTest {
   }
 
   @Test
-  public void test_getDownHillIndex() {
+  public void test_getFirstDownHillIndex() {
     int[] arr = {0, 3, 4, 2, 9};
 
-    assertEquals(3, getDownHillIndex(arr));
+    assertEquals(3, getFirstDownHillIndex(arr));
   }
 
   @Test
-  public void test_getDownHillIndex2() {
+  public void test_getFirstDownHillIndex2() {
     int[] arr = {0, 3, 4, 2, 9, 11, 2,  3};
 
-    assertEquals(3, getDownHillIndex(arr));
+    assertEquals(3, getFirstDownHillIndex(arr));
   }
 }
