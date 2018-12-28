@@ -112,8 +112,6 @@ public interface LevelOne {
         break;
       }
     }
-//      fix last test
-//    if you don't brake, it will continue, no need to "else"
     return downHill;
   }
 }
