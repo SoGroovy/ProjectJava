@@ -109,4 +109,11 @@ public class LevelOneTest {
 
     assertEquals(3, getDownHillIndex(arr));
   }
+
+  @Test
+  public void test_getDownHillIndex2() {
+    int[] arr = {0, 3, 4, 2, 9, 11, 2,  3};
+
+    assertEquals(3, getDownHillIndex(arr));
+  }
 }
