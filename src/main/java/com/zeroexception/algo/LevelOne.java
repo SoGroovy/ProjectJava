@@ -109,8 +109,11 @@ public interface LevelOne {
     for(int i = 0; i < arr.length-1; i++){
       if(arr[i] > arr[i+1]) {
         downHill = (i + 1);
+        break;
       }
     }
+//      fix last test
+//    if you don't brake, it will continue, no need to "else"
     return downHill;
   }
 }
