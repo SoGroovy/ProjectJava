@@ -8,6 +8,7 @@ import static com.zeroexception.algo.LevelOne.getMaxvalue;
 import static com.zeroexception.algo.LevelOne.getMinvalue;
 import static com.zeroexception.algo.LevelOne.getSubstr;
 import static com.zeroexception.algo.LevelOne.isPalindrome;
+import static com.zeroexception.algo.LevelOne.total1;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -99,7 +100,7 @@ public class LevelOneTest {
   @Test
   public void test_total1() {
     int[] array = {2, 3, 5, 9, 1};
-    assertEquals(20, total(array));
+    assertEquals(20, total1(array));
   }
 
   @Test

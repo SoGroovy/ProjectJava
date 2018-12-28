@@ -90,6 +90,14 @@ public interface LevelOne {
     }
     return minValue;
   }
+  static int total1(int[] arr){
+    int total = 0;
+    for(int i = 0; i < arr.length; i++){
+      total = total + arr[i];
+    }
+    return total;
+  }
+
 
   static int getDownHillIndex(int[] arr){
 
