@@ -67,8 +67,13 @@ public interface LevelOne {
   }
 
   static char getMaxLetter(String str){
-
-    return'x';
+    char result = str.charAt(0);
+    for(int i = 1; i < str.length(); i++){
+      if(result < str.charAt(i)){
+        result = str.charAt(i);
+      }
+    }
+    return result;
   }
 
   static int getMaxvalue(int[] arr) {
