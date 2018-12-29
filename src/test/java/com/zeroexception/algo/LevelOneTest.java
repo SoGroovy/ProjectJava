@@ -9,6 +9,7 @@ import static com.zeroexception.algo.LevelOne.getMinvalue;
 import static com.zeroexception.algo.LevelOne.getSubstr;
 import static com.zeroexception.algo.LevelOne.isPalindrome;
 import static com.zeroexception.algo.LevelOne.total1;
+import static com.zeroexception.algo.LevelOne.getDeepestValley;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -115,5 +116,11 @@ public class LevelOneTest {
     int[] arr = {0, 3, 4, 2, 9, 11, 2,  3};
 
     assertEquals(3, getFirstDownHillIndex(arr));
+  }
+  @Test
+  public void test_getDeepestValley(){
+    int[] arr = {9, 3, 5, 17, 8, 9,  10, -2};
+    int[] output = {4, 8};
+    assertArrayEquals(output, getDeepestValley(arr));
   }
 }

@@ -114,4 +114,27 @@ public interface LevelOne {
     }
     return downHill;
   }
+
+  static int[] getDeepestValley(int[] arr){
+
+    int[] output = new int[2];
+    for(int i = 1; i < arr.length-1; i++){
+      int maxEffort = 0;
+      int effort = 0;
+      int deepestValley = 0;
+      int j = i - 1;
+      if(arr[i] < arr[j] && arr[i] < arr[i+1]){
+        effort = Math.abs(arr[j]-arr[i]) + Math.abs(arr[i]-arr[i+1]);
+        if(maxEffort < effort){
+          maxEffort = effort;
+          output[0] = i;
+          output[1] = arr[i];
+        }
+      }
+    }
+//    output[0] = 4;
+//    output[1] = 8;
+
+    return output;
+  }
 }
