@@ -121,7 +121,6 @@ public interface LevelOne {
     for(int i = 1; i < arr.length-1; i++){
       int maxEffort = 0;
       int effort = 0;
-      int deepestValley = 0;
       int j = i - 1;
       if(arr[i] < arr[j] && arr[i] < arr[i+1]){
         effort = Math.abs(arr[j]-arr[i]) + Math.abs(arr[i]-arr[i+1]);
