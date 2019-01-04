@@ -2,6 +2,7 @@ package com.zeroexception.algo;
 
 import static com.zeroexception.algo.LevelOne.add;
 import static com.zeroexception.algo.LevelOne.getFirstDownHillIndex;
+import static com.zeroexception.algo.LevelOne.getLongestPlateau;
 import static com.zeroexception.algo.LevelOne.getMaxLetter;
 import static com.zeroexception.algo.LevelOne.centuryFromYear;
 import static com.zeroexception.algo.LevelOne.getMaxvalue;
@@ -113,14 +114,47 @@ public class LevelOneTest {
 
   @Test
   public void test_getFirstDownHillIndex2() {
-    int[] arr = {0, 3, 4, 2, 9, 11, 2,  3};
+    int[] arr = {0, 3, 4, 2, 9, 11, 2, 3};
 
     assertEquals(3, getFirstDownHillIndex(arr));
   }
+
   @Test
-  public void test_getDeepestValley(){
-    int[] arr = {9, 3, 5, 17, 8, 9,  10, -2};
+  public void test_getDeepestValley() {
+    int[] arr = {9, 3, 5, 17, 8, 9, 10, -2};
     int[] output = {4, 8};
     assertArrayEquals(output, getDeepestValley(arr));
+  }
+
+  @Test
+  public void test_getDeepestValley2() {
+    int[] arr = {2, 1, 3, 4, 3, 7, 5, 2, 8, 1};
+    int[] output = {7, 2};
+    assertArrayEquals(output, getDeepestValley(arr));
+  }
+
+  @Test
+  public void test_getDeepestValley3() {
+    int[] arr = {7, 2, 4, 1, 5};
+    int[] output = {3, 1};
+    assertArrayEquals(output, getDeepestValley(arr));
+  }
+  @Test
+  public void test_getDeepestValley4() {
+    int[] arr = {4,5,6, 9, 3, 5, -17, 1};
+    int[] output = {6, -17};
+    assertArrayEquals(output, getDeepestValley(arr));
+  }
+  @Test
+  public void test_getDeepestValley5() {
+    int[] arr = {8, 7, 3, 5, 9, 8, 9,  10, -2};
+    int[] output = {2, 3};
+    assertArrayEquals(output, getDeepestValley(arr));
+  }
+  @Test
+  public void test_getLongestPlateau(){
+    int[] arr = {1,1,1,1,2,3,3,4,5,5,5,3};
+    int output = (1);
+    assertEquals(output, getLongestPlateau(arr));
   }
 }

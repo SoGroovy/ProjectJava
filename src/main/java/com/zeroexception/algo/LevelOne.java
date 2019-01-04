@@ -136,4 +136,25 @@ public interface LevelOne {
 
     return output;
   }
+  static int getLongestPlateau(int[] a){
+    int count = 0, tempCount;
+    int longest = a[0];
+    int temp = 0;
+    for (int i = 0; i < (a.length - 1); i++)
+    {
+      temp = a[i];
+      tempCount = 0;
+      for (int j = 1; j < a.length; j++)
+      {
+        if (temp == a[j])
+          tempCount++;
+      }
+      if (tempCount > count)
+      {
+        longest = temp;
+        count = tempCount;
+      }
+    }
+    return longest;
+  }
 }
