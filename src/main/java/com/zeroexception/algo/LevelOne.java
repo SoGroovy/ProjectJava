@@ -116,37 +116,26 @@ public interface LevelOne {
   }
 
   static int[] getDeepestValley(int[] arr){
-
-    int[] output = new int[2];
+    int[] tempValley = new int[arr.length];
     for(int i = 1; i < arr.length-1; i++){
-      int maxEffort = 0;
-      int effort = 0;
-      int j = i - 1;
-      if(arr[i] < arr[j] && arr[i] < arr[i+1]){
-        effort = Math.abs(arr[j]-arr[i]) + Math.abs(arr[i]-arr[i+1]);
-        if(maxEffort < effort){
-          maxEffort = effort;
-          output[0] = i;
-          output[1] = arr[i];
-        }
+      if(arr[i]< arr[i+1] && arr[i] < arr[i-1]){
+        tempValley[i] = arr[i];
       }
     }
-//    output[0] = 4;
-//    output[1] = 8;
 
-    return output;
+    return new int[]{0, 0};
   }
-  static int getLongestPlateau(int[] a){
+  static int getLongestPlateau(int[] arr){
     int count = 0, tempCount;
-    int longest = a[0];
+    int longest = arr[0];
     int temp = 0;
-    for (int i = 0; i < (a.length - 1); i++)
+    for (int i = 0; i < (arr.length - 1); i++)
     {
-      temp = a[i];
+      temp = arr[i];
       tempCount = 0;
-      for (int j = 1; j < a.length; j++)
+      for (int j = 1; j < arr.length; j++)
       {
-        if (temp == a[j])
+        if (temp == arr[j])
           tempCount++;
       }
       if (tempCount > count)
@@ -156,5 +145,26 @@ public interface LevelOne {
       }
     }
     return longest;
+  }
+
+  static int indexOfGreatestConsecutiveSum(int[] arr){
+    int greatestSum = Integer.MIN_VALUE;
+    int indexOfSum = Integer.MIN_VALUE;
+    for (int i = 0; i < arr.length-1; i++){
+      if(arr[i]+arr[i+1] >= greatestSum){
+        greatestSum = arr[i]+arr[i+1];
+        indexOfSum = i;
+      }
+    }
+    return indexOfSum;
+  }
+  static int[] shiftArrayForward(int[] arr){
+    int[] array = new int[arr.length];
+    int tempValue = arr[arr.length-1];
+    for(int i = arr.length-1; i > 0; i--){
+      arr[i] = arr[i-1];
+    }
+    arr[0] = tempValue;
+    return arr;
   }
 }

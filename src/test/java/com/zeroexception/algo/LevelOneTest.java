@@ -8,7 +8,9 @@ import static com.zeroexception.algo.LevelOne.centuryFromYear;
 import static com.zeroexception.algo.LevelOne.getMaxvalue;
 import static com.zeroexception.algo.LevelOne.getMinvalue;
 import static com.zeroexception.algo.LevelOne.getSubstr;
+import static com.zeroexception.algo.LevelOne.indexOfGreatestConsecutiveSum;
 import static com.zeroexception.algo.LevelOne.isPalindrome;
+import static com.zeroexception.algo.LevelOne.shiftArrayForward;
 import static com.zeroexception.algo.LevelOne.total1;
 import static com.zeroexception.algo.LevelOne.getDeepestValley;
 import static org.junit.Assert.*;
@@ -139,22 +141,74 @@ public class LevelOneTest {
     int[] output = {3, 1};
     assertArrayEquals(output, getDeepestValley(arr));
   }
+
   @Test
   public void test_getDeepestValley4() {
-    int[] arr = {4,5,6, 9, 3, 5, -17, 1};
+    int[] arr = {4, 5, 6, 9, 3, 5, -17, 1};
     int[] output = {6, -17};
     assertArrayEquals(output, getDeepestValley(arr));
   }
+
   @Test
   public void test_getDeepestValley5() {
-    int[] arr = {8, 7, 3, 5, 9, 8, 9,  10, -2};
+    int[] arr = {8, 7, 3, 5, 9, 8, 9, 10, -2};
     int[] output = {2, 3};
     assertArrayEquals(output, getDeepestValley(arr));
   }
+
   @Test
-  public void test_getLongestPlateau(){
-    int[] arr = {1,1,1,1,2,3,3,4,5,5,5,3};
-    int output = (1);
+  public void test_getLongestPlateau() {
+    int[] arr = {1, 1, 1, 1, 2, 3, 3, 4, 5, 5, 5, 3};
+    int output = 1;
     assertEquals(output, getLongestPlateau(arr));
+  }
+
+  @Test
+  public void test_getLongestPlateau2() {
+    int[] arr = {1, 1, 2, 3, 3, 3, 4, 5};
+    int output = 3;
+    assertEquals(output, getLongestPlateau(arr));
+  }
+
+  @Test
+  public void test_getLongestPlateau3() {
+    int[] arr = {1, 1, 1, 2, 3, 3, 4, 5, 5, 5, 5, 3, 3};
+    int output = 5;
+    assertEquals(output, getLongestPlateau(arr));
+  }
+
+  @Test
+  public void test_getLongestPlateau4() {
+    int[] arr = {1, 2, 3, 3, 4, 5, 5, 5};
+    int output = 5;
+    assertEquals(output, getLongestPlateau(arr));
+  }
+
+  @Test
+  public void test_indexOfGreatestConsecutiveSum() {
+    int[] arr = {1, 1, 2};
+    int output = 1;
+    assertEquals(output, indexOfGreatestConsecutiveSum(arr));
+  }
+
+  @Test
+  public void test_indexOfGreatestConsecutiveSum2() {
+    int[] arr = {2, 3, 8, 9, 1};
+    int output = 2;
+    assertEquals(output, indexOfGreatestConsecutiveSum(arr));
+  }
+
+  @Test
+  public void test_indexOfGreatestConsecutiveSum3() {
+    int[] arr = {9, 1, 8, 3, 7, 4};
+    int output = 4;
+    assertEquals(output, indexOfGreatestConsecutiveSum(arr));
+  }
+
+  @Test
+  public void test_shiftArrayForward(){
+    int[] arr = {1, 2, 3};
+    int[] output = {3, 1, 2};
+    assertArrayEquals(output, shiftArrayForward(arr));
   }
 }
